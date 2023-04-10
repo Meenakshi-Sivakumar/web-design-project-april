@@ -1,0 +1,88 @@
+//variables
+$black: black;
+$base-color: rgb(239, 233, 224);
+$border: 1px solid black;
+
+body{
+    background-color: $base-color;
+}
+
+#top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 0 50px;
+    margin-top: 60px;
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 50px;
+    flex-wrap: nowrap;
+    min-width: 1150px;
+}
+#logo{
+    margin-right: 120px;
+    width: 170px;
+    border: 1px solid $base-color;
+}
+.nav-link{
+    font-weight:bolder;
+    font-size: 14px;
+    padding-bottom: 10px;
+    flex-wrap: nowrap;
+}
+.nav-link:hover{
+    border-bottom: 2px solid $black;
+}
+.button{
+    height: 50px;
+    padding: 0 34px;
+    background-color: $black;
+    color: $base-color;
+    border-radius: 50px;
+    font-weight:bolder;
+    font-size: 14px;    
+    border: 0;
+    border: 2px solid $black;
+}
+.button:hover {
+    background-color:$base-color;
+    color: $black;
+    border: 2px solid $black;
+}
+#one{
+    position: absolute;
+    top: 30%;
+    left: 100px;
+    width: 600px;
+    height: 480px;
+    background-color: rgba($color: rgb(239, 233, 224), $alpha: 0.94);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+#one>h1{
+    font-size: 75px;
+    font-weight: 350;
+}
+#one>p{
+    margin-top: 30px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 22px;
+    font-size: 15px;
+    font-weight:500;
+}
+#discover-how{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#main-bg{
+    width:100vw;
+    height: 45vw;
+    margin: 0;
+    padding: 0;
+}
+#logo:hover{
+    cursor: pointer;
+    
+}
